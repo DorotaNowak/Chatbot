@@ -1,0 +1,141 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Cześć",
+        "Hej",
+        "Dzień dobry",
+        "Siemanko"
+      ],
+      "responses": [
+        "Cześć! W czym mogę pomóc?",
+        "Witam! W czym mogę pomóc?",
+        "Dzień dobry! W czym mogę pomóc?"
+      ]
+    },
+    {
+      "tag": "smalltalk",
+      "patterns": [
+        "Jak tam?",
+        "Co u ciebie?",
+        "Co tam?",
+        "Jak się czujesz?"
+      ],
+      "responses": [
+        "Dziękuję, bardzo dobrze!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Do widzenia", "Do zobaczenia", "Na razie"],
+      "responses": [
+        "Do zobaczenia, miłego dnia!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Dziekuję bardzo", "Dzięki"],
+      "responses": ["Nie ma za co!", "Mam nadzieję, że pomogłem!"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Co sprzedajecie?",
+        "Jakie przedmioty posiadacie?",
+        "Co macie na sprzedaż?",
+        "Czym się zajmujecie?",
+        "Co mogę kupić w sklepie?"
+      ],
+      "responses": [
+        "Sprzedajem kawę i herbatę oraz wszystkie potrzebne akcesoria, takie jak młynki i ekspresy do kawy a także wiele innych."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Można płacić kartą?",
+        "Mogę zapłacić przy odbiorze?",
+        "Jak mogę zapłacić?",
+        "Czy akceptujecie płatność kartą?",
+        "Jakie są dostępne formy płatności"
+      ],
+      "responses": [
+        "Akceptujemy karty VISA i MasterCard, a także płatność gotówką przy odbiorze."
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "Jak długo zajmuje wysyłka?",
+        "Jaki jest czas oczekiwana na zmaówienie?",
+        "Kiedy otrzymam swoje zamówienie?",
+        "Kiedy otrzymam swój towar?",
+        "Kiedy dotrze moja przesyłka?"
+      ],
+      "responses": [
+        "Dostarczenie przesyłki zajmuje zwykle 2-4 dni roboczych."
+      ]
+    },
+    {
+      "tag": "complaint",
+      "patterns": [
+        "Jak mogę złożyć reklamację?",
+        "Przez ile dni produkt od otrzymania przesyłki, mogę złożyć reklamację?",
+        "Chcę reklamować produkt X, zakupiony dnia 12 lutego.",
+        "Chcę złożyć reklamację,",
+        "Nie jestem zadowolony/zadowolona z zamówienia.",
+        "Chcę zareklamować."
+      ],
+      "responses": [
+        "Reklamację można złożyć w ciągu 30 dni od otrzymania zamówienia. Prosimy wypełnić formularz dostępny w zakładce Reklamacje."
+      ]
+    },
+    {
+      "tag": "abroad",
+      "patterns": [
+        "Czy wysyłacie za granicę?",
+        "Czy mogę zamówić do Anglii?",
+        "Czy wysyłacie do Niemiec?"
+      ],
+      "responses": [
+        "Przykro nam, ale wysyłamy zamówienia jedynie do Polski."
+      ]
+    },
+    {
+      "tag": "products",
+      "patterns": [
+        "Czy jest czarna herbata z malinami?",
+        "Czy dostanę zieloną herbatę?",
+        "Jakie macie rodzaje kawy i herbaty?",
+        "Czy dostanę młynek do kawy lub ekspres?"
+      ],
+      "responses": [
+        "Mamy bardzo szeroką ofertę produktów, wszystkie artyuły można znaleźć w zakładce Oferta."
+      ]
+    },
+    {
+      "tag": "wegan",
+      "patterns": [
+        "Czy wasze produkty są wegetariańskie?",
+        "Czy macie w swojej ofercie wegańskie produkty?",
+        "Czy produkty są bio?",
+        "Czy są odpowiednie dla wegan, wegetarian?"
+      ],
+      "responses": [
+        "Wszystkie nasze produkty są wegańskie oraz ekologiczne."
+      ]
+    },
+    {
+      "tag": "recommendations",
+      "patterns": [
+        "Co polecacie?",
+        "Jaką herbatę lub kawę państwo polecają?",
+        "Jaką kawę polecasz?"
+      ],
+      "responses": [
+        "Polecamy produkty, które są najczęściej kupowane. Można je znaleźć w zakładce Bestsellers."
+      ]
+    }
+  ]
+}
